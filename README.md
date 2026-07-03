@@ -56,6 +56,14 @@ Override any of those values in `config.ini` if you need different behavior loca
 
 ## Usage
 
+Launch the GUI:
+
+```bash
+python inventory-gui.py
+```
+
+The GUI exposes the get/set options as dropdowns and runs the selected command with one click. Get inventory jobs write CSV output to a timestamped file in `db/`, for example `db/adobe-inventory-20260703-143012.csv`.
+
 Scrape Shutterstock:
 
 ```bash
